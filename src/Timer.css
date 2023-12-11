@@ -1,0 +1,80 @@
+.timer-container {
+    background-color: aliceblue;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+    animation: borderAnimation 3s linear infinite;
+  }
+  
+ 
+  
+  @keyframes borderAnimation {
+    0% {
+      border-color: #ff0000;
+    }
+    25% {
+      border-color: #00ff00;
+    }
+    50% {
+      border-color: #0000ff;
+    }
+    75% {
+      border-color: #ff00ff;
+    }
+    100% {
+      border-color: #ffff00;
+    }
+  }
+  
+  .title {
+    font-size: 30px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+    border: 0.1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#4caf50;
+  }
+  
+  .time {
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .input-field{
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+  }
+  input{
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: aliceblue;
+  }
+  .timer-buttons button {
+    margin-right: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .timer-buttons button:hover {
+    background-color: #45a049;
+  }
+  
